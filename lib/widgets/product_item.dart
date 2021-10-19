@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:original_shop_app/providers/cart.dart';
 import 'package:original_shop_app/providers/product.dart';
+import 'package:original_shop_app/providers/product_provider.dart';
 import 'package:provider/provider.dart';
 import '../screens/product_details_screen.dart';
 
@@ -11,6 +12,7 @@ class ProductItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final product = Provider.of<Product>(context, listen: false);
+
     final cart = Provider.of<Cart>(context, listen: false);
     print('Rebuilds');
     return ClipRRect(

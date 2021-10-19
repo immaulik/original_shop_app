@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:original_shop_app/models/http_exception.dart';
 import './product.dart';
 import 'dart:convert';
