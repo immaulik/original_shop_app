@@ -14,6 +14,7 @@ import './screens/orders_screen.dart';
 
 void main() => runApp(MyApp());
 
+// ignore: use_key_in_widget_constructors
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
           title: 'MyShop',
           theme: ThemeData(
             primarySwatch: Colors.purple,
+            // ignore: deprecated_member_use
             accentColor: Colors.deepOrange,
             fontFamily: GoogleFonts.poppins().fontFamily,
           ),
