@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:original_shop_app/models/http_exception.dart';
 import 'package:original_shop_app/providers/auth.dart';
+import 'package:original_shop_app/screens/products_overview_screen.dart';
 import 'package:provider/provider.dart';
 
 enum AuthMode { Signup, Login }
