@@ -29,6 +29,7 @@ class OrdersScreen extends StatelessWidget {
             if (dataSnapshot.error != null) {
               // ...
               // Do error handling stuff
+              print(dataSnapshot.error.toString());
               return const Center(
                 child: Text('An error occurred!'),
               );
